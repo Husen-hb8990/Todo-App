@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="js-myTodo1.css">
+</head>
+<body>
+
+<div id="main" class="header">
+	<h1><i class="fa fa-list-alt" style="font-size:25px;color:#fff"></i> My Todo List</h1>
+	<input type="text" id="task"  placeholder="Enter Your Title..."/>
+	<button   id="add" title="Add">Add <i class="fa fa-pencil" style="font-size:16px;"></i></button><br>
+	<p id="alert"></p>
+</div><br><br><br>
+
+<div id="myProgress">
+  <div id="myBar"></div>
+</div>
+
+<div id="todos"></div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top <i class="fa fa-arrow-up" style="font-size:20px;color:#fff"></i>
+</button>
+
+
+<script src="js-myTodo1.js"></script>
+</body>
+</html>
